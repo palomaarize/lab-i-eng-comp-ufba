@@ -3,7 +3,7 @@
     `define FOLLOW_THE_WALL 3'b010
     `define SEARCH_THE_WALL 3'b011
     `define TURN_90 3'b100
-    `define STATE_FETCH 3'b1
+    `define STATE_FETCH 3'b111
 
     `define ACTIVE 1'b1
 

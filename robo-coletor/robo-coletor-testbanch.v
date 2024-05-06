@@ -55,7 +55,7 @@ begin
 	begin
 		@ (negedge clock);
 		Define_Sensores;
-		$display ("H = %b L = %b", head, left);
+		$display ("H = %b L = %b U = %b  B = %b", head, left, under, barrier);
 		@ (negedge clock);
 		Atualiza_Posicao_Robo;
 		case (Orientacao_Robo)
@@ -138,60 +138,156 @@ begin
                         under = 0;
 				end
 			end
-		//S:	begin
-				// definicao de head
-				//if (Linha_Robo == 20)
-				//	head = 1;
-				//else
-				//begin
-					//Linha_Mapa = Mapa[Linha_Robo + 1];
-				//	head = Linha_Mapa[Coluna_Robo];
-				//end
-				// definicao de left
-				//if (Coluna_Robo == 20)
-				//	left = 1;
-				//else
-				//begin
-				//	Linha_Mapa = Mapa[Linha_Robo];
-				//	left = Linha_Mapa[Coluna_Robo + 1];
-			//	//end
-		//	end
-		//L:	begin
-				// definicao de head
-		//		if (Coluna_Robo == 20)
-		//			head = 1;
-			//	else
-			//	begin
-			//		Linha_Mapa = Mapa[Linha_Robo];
-			//		head = Linha_Mapa[Coluna_Robo + 1];
-				//end
-				// definicao de left
-				//if (Linha_Robo == 1)
-				//	left = 1;
-				//else
-				//begin
-				//	Linha_Mapa = Mapa[Linha_Robo - 1];
-				//	left = Linha_Mapa[Coluna_Robo];
-				//end
-		//	end
-		//O:	begin
-				// definicao de head
-				//if (Coluna_Robo == 1)
-				//	head = 1;
-				//else
-				//begin
-				//	Linha_Mapa = Mapa[Linha_Robo];
-				//	head = Linha_Mapa[Coluna_Robo - 1];
-				//end
-				// definicao de left
-				//if (Linha_Robo == 20)
-				//	left = 1;
-				//else
-				//begin
-				//	Linha_Mapa = Mapa[Linha_Robo + 1];
-				//	left = Linha_Mapa[Coluna_Robo];
-				//end
-			//end
+		S:	begin
+				//definicao de head
+				if (Linha_Robo == 20)
+					head = 1;
+				else
+				begin
+					dado_celula = Mapa[Linha_Robo + 1][Coluna_Robo];
+					if(dado_celula == 2'b01)
+                        head = 1;
+                    else 
+                        head = 0;
+				end
+
+				//definicao de barrier
+				if (Linha_Robo == 20)
+					barrier = 0;
+				else
+				begin
+					dado_celula = Mapa[Linha_Robo + 1][Coluna_Robo];
+					if(dado_celula == 2'b10)
+                        barrier = 1;
+                    else 
+                        barrier = 0;
+				end
+
+				//definicao de left
+				if (Coluna_Robo == 20)
+					left = 1;
+				else
+				begin
+					dado_celula = Mapa[Linha_Robo][Coluna_Robo + 1];
+					if(dado_celula == 2'b01)
+                        left = 1;
+                    else 
+                        left = 0;
+				end
+
+				//definicao under
+				if (Linha_Robo == 1)
+					under = 0;
+				else
+				begin
+                   dado_celula = Mapa[Linha_Robo][Coluna_Robo];
+					if(dado_celula == 2'b11)
+                        under = 1;
+                    else 
+                        under = 0;
+				end
+			end
+		L:	begin
+				//definicao de head
+				if (Coluna_Robo == 20)
+					head = 1;
+				else
+				begin
+					dado_celula = Mapa[Linha_Robo][Coluna_Robo + 1];
+					if(dado_celula == 2'b10)
+                        head = 1;
+                    else 
+                        head = 0;
+				end
+
+				//definicao de barrier
+				if (Coluna_Robo == 20)
+					barrier = 0;
+				else
+				begin
+					dado_celula = Mapa[Linha_Robo][Coluna_Robo + 1];
+					if(dado_celula == 2'b10)
+                        barrier = 1;
+                    else 
+                        barrier = 0;
+				end
+
+				//definicao de left
+				if (Linha_Robo == 1)
+					left = 1;
+				else
+				begin
+					dado_celula = Mapa[Linha_Robo - 1][Coluna_Robo];
+					if(dado_celula == 2'b01)
+                        left = 1;
+                    else 
+                        left = 0;
+				end
+
+				//definicao under
+				if (Linha_Robo == 1)
+					under = 0;
+				else
+				begin
+                   dado_celula = Mapa[Linha_Robo][Coluna_Robo];
+					if(dado_celula == 2'b11)
+                        under = 1;
+                    else 
+                        under = 0;
+				end
+			end
+		O:	begin
+				//definicao de head
+				if (Coluna_Robo == 1)
+					head = 1;
+				else
+				begin
+					dado_celula = Mapa[Linha_Robo][Coluna_Robo - 1];
+					if(dado_celula == 2'b10)
+                        head = 1;
+                    else 
+                        head = 0;
+				end
+
+				//definicao de barrier
+				if (Coluna_Robo == 1)
+					barrier = 0;
+				else
+				begin
+					dado_celula = Mapa[Linha_Robo][Coluna_Robo - 1];
+					if(dado_celula == 2'b01)
+                        barrier = 1;
+                    else 
+                        barrier = 0;
+				end
+				
+				//definicao de left
+				if (Linha_Robo == 20)
+					left = 1;
+				else
+				begin
+					Linha_Mapa = Mapa[Linha_Robo + 1];
+					left = Linha_Mapa[Coluna_Robo];
+
+					ado_celula = Mapa[Linha_Robo + 1][Coluna_Robo];
+					if(dado_celula == 2'b10)
+                        head = 1;
+                    else 
+                        head = 0;
+				end
+
+				//definicao under
+				if (Linha_Robo == 1)
+					under = 0;
+				else
+				begin
+                   dado_celula = Mapa[Linha_Robo][Coluna_Robo];
+					if(dado_celula == 2'b11)
+                        under = 1;
+                    else 
+                        under = 0;
+				end
+			end
 	endcase
 end
 endtask

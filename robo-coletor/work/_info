@@ -11,51 +11,51 @@ z2
 cModel Technology
 d/home/palomasilvaarizesantos/Documentos/ufba/ENGG56_CPU/Processador/ModelSim
 vRobo
-Z0 !s110 1713734862
+!s110 1714943159
 !i10b 1
-!s100 ASmR0i?4I3O4f=g:HSSR^3
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I9iki8fdRoIR06`k85OdI31
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 d/home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor
-w1713669194
+!s100 17FBJ7?BeZ^=0^`5zTzle0
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IoLGzNf]fTz2WX_:MAjU@W1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d/home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor
+w1714942153
 8/home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v
 F/home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v
 Fdefinitions.v
-!i122 140
+!i122 166
 L0 1 221
-Z4 OV;L;2020.1;71
+Z3 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1713734862.000000
+!s108 1714943159.000000
 !s107 definitions.v|/home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v|
 !i113 1
-Z6 o-work work
-Z7 tCvgOpt 0
+Z4 o-work work
+Z5 tCvgOpt 0
 n@robo
 vRobo_TB
-R0
+!s110 1714941982
 !i10b 1
-!s100 U@5@ENc^X>1?`=mdkQ6KX1
+!s100 dj79_DfhNF]N<XReT?O553
+R0
+I8CJ>3`jEkaR3PWd7RmoUX1
 R1
-InZY[@G2deQcF]>BR7ko@70
 R2
-R3
-w1713734859
+w1714941616
 8/home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor-testbanch.v
 F/home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor-testbanch.v
-!i122 139
+!i122 163
 L0 3 252
-R4
+R3
 r1
 !s85 0
 31
-R5
+!s108 1714941982.000000
 !s107 /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor-testbanch.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor-testbanch.v|
 !i113 1
-R6
-R7
+R4
+R5
 n@robo_@t@b

@@ -22,7 +22,7 @@ module Robo (
         end
     end
 
-    always @(state) begin
+    always @(*) begin
         case (state)
             `STAND_BY: begin
                 if(head == 1'b1 && left == 1'b0 && under == 1'b1 && barrier == 1'b0 && under_reset == 1'b1)
@@ -33,7 +33,7 @@ module Robo (
                     future_state = `STAND_BY;
                 end
 
-                if(head == 1'b0 && left == 1'bx && under == 1'b1 && barrier == 1'b1 && under_reset == 1'b1)
+                if(head == 1'b0 && under == 1'b1 && barrier == 1'b1 && under_reset == 1'b1)
                 begin
                     turn = ~`ACTIVE;
                     advance = ~`ACTIVE;
@@ -59,7 +59,7 @@ module Robo (
             end
 
             `COLLECT_TRASH: begin
-                if(head == 1'bx && left == 1'bx && under == 1'b0 && barrier == 1'b1)
+                if(under == 1'b0 && barrier == 1'b1)
                 begin
                     turn = ~`ACTIVE;
                     advance = ~`ACTIVE;
@@ -85,7 +85,7 @@ module Robo (
             end
 
             `FOLLOW_THE_WALL: begin
-                if(head == 1'bx && left == 1'bx && under == 1'b1 && barrier == 1'bx)
+                if(under == 1'b1)
                 begin
                     turn = ~`ACTIVE;
                     advance = ~`ACTIVE;
@@ -101,7 +101,7 @@ module Robo (
                     future_state = `FOLLOW_THE_WALL;
                 end
 
-                if(head == 1'bx && left == 1'bx && under == 1'b0 && barrier == 1'b1)
+                if(under == 1'b0 && barrier == 1'b1)
                 begin
                     turn = ~`ACTIVE;
                     advance = ~`ACTIVE;
@@ -109,7 +109,7 @@ module Robo (
                     future_state = `COLLECT_TRASH;
                 end
 
-                if(head == 1'b1 && left == 1'bx && under == 1'b0 && barrier == 1'b0)
+                if(head == 1'b1 && under == 1'b0 && barrier == 1'b0)
                 begin
                     turn = `ACTIVE;
                     advance = ~`ACTIVE;
@@ -135,7 +135,7 @@ module Robo (
                     future_state = `SEARCH_THE_WALL;
                 end
 
-                if(head == 1'bx && left == 1'bx && under == 1'b1 && barrier == 1'bx)
+                if(under == 1'b1)
                 begin
                     turn = ~`ACTIVE;
                     advance = ~`ACTIVE;
@@ -151,7 +151,7 @@ module Robo (
                     future_state = `FOLLOW_THE_WALL;
                 end
 
-                if(head == 1'b1 && left == 1'bx && under == 1'b0 && barrier == 1'b0)
+                if(head == 1'b1 && under == 1'b0 && barrier == 1'b0)
                 begin
                     turn = `ACTIVE;
                     advance = ~`ACTIVE;
@@ -159,7 +159,7 @@ module Robo (
                     future_state = `TURN_90;
                 end
 
-                if(head == 1'b0 && left == 1'bx && under == 1'b0 && barrier == 1'b1)
+                if(head == 1'b0 && under == 1'b0 && barrier == 1'b1)
                 begin
                     turn = ~`ACTIVE;
                     advance = ~`ACTIVE;
@@ -177,7 +177,7 @@ module Robo (
                     future_state = `FOLLOW_THE_WALL;
                 end
 
-                if(head == 1'b1 && left == 1'bx && under == 1'b0 && barrier == 1'b0)
+                if(head == 1'b1 && under == 1'b0 && barrier == 1'b0)
                 begin
                     turn = `ACTIVE;
                     advance = ~`ACTIVE;
@@ -185,7 +185,7 @@ module Robo (
                     future_state = `TURN_90;
                 end
 
-                if(head == 1'b1 && left == 1'bx && under == 1'b0 && barrier == 1'b0)
+                if(head == 1'b1 && under == 1'b0 && barrier == 1'b0)
                 begin
                     turn = `ACTIVE;
                     advance = ~`ACTIVE;
@@ -193,7 +193,7 @@ module Robo (
                     future_state = `TURN_90;
                 end
 
-                if(head == 1'bx && left == 1'bx && under == 1'b0 && barrier == 1'b1)
+                if(under == 1'b0 && barrier == 1'b1)
                 begin
                     turn = ~`ACTIVE;
                     advance = ~`ACTIVE;
