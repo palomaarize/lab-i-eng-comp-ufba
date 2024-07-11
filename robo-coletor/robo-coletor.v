@@ -187,7 +187,7 @@ module Robo (
                     turn = `ACTIVE;
                     advance = ~`ACTIVE;
                     collect = ~`ACTIVE;
-                    future_state = `STAND_BY;
+                    future_state = `TURN_90;
                 end
 
                 if(under == 1'b0 && barrier == 1'b1)

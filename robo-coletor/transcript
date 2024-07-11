@@ -1227,3 +1227,4 @@ run
 # Linha =  3 Coluna =  3 Orientacao =  Sul  
 run
 run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/wave-old-test.do
