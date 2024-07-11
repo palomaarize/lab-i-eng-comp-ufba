@@ -30,7 +30,7 @@ begin
 	reset = 1;
 	head = 0;
 	left = 0;
-	under = 1;
+	under = 0;
 	barrier = 0;
 
 	$readmemb("/home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/mapa.txt", Mapa);
@@ -266,10 +266,7 @@ begin
 					left = 1;
 				else
 				begin
-					Linha_Mapa = Mapa[Linha_Robo + 1];
-					left = Linha_Mapa[Coluna_Robo];
-
-					ado_celula = Mapa[Linha_Robo + 1][Coluna_Robo];
+					dado_celula = Mapa[Linha_Robo + 1][Coluna_Robo];
 					if(dado_celula == 2'b10)
                         head = 1;
                     else 

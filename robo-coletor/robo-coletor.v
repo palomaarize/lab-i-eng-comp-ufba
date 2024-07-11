@@ -8,24 +8,21 @@ module Robo (
 
     reg [2:0] state = `STATE_FETCH; 
     reg [2:0] future_state = `STAND_BY;
-    reg  under_reset = 1'b0;
-
+    
 
     always @(posedge clock) begin
         if(reset) begin
             state <= `STAND_BY;
-            under_reset <= `ACTIVE;
         end
         else begin
             state <= future_state;
-            under_reset <= ~`ACTIVE;
         end
     end
 
     always @(*) begin
         case (state)
             `STAND_BY: begin
-                if(head == 1'b1 && left == 1'b0 && under == 1'b1 && barrier == 1'b0 && under_reset == 1'b1)
+                if(head == 1'b1 && left == 1'b0 && under == 1'b1 && barrier == 1'b0)
                 begin
                     turn = `ACTIVE;
                     advance = ~`ACTIVE;
@@ -33,7 +30,7 @@ module Robo (
                     future_state = `STAND_BY;
                 end
 
-                if(head == 1'b0 && under == 1'b1 && barrier == 1'b1 && under_reset == 1'b1)
+                if(head == 1'b0 && under == 1'b1 && barrier == 1'b1)
                 begin
                     turn = ~`ACTIVE;
                     advance = ~`ACTIVE;
@@ -41,7 +38,7 @@ module Robo (
                     future_state = `COLLECT_TRASH;
                 end
 
-                if(head == 1'b0 && left == 1'b1 && under == 1'b1 && barrier == 1'b0 && under_reset == 1'b1)
+                if(head == 1'b0 && left == 1'b1 && under == 1'b1 && barrier == 1'b0)
                 begin
                     turn = ~`ACTIVE;
                     advance = `ACTIVE;
@@ -49,7 +46,7 @@ module Robo (
                     future_state = `FOLLOW_THE_WALL;
                 end
                 
-                if(head == 1'b0 && left == 1'b0 && under == 1'b1 && barrier == 1'b0 && under_reset == 1'b1)
+                if(head == 1'b0 && left == 1'b0 && under == 1'b1 && barrier == 1'b0)
                 begin
                     turn = ~`ACTIVE;
                     advance = `ACTIVE;
@@ -153,7 +150,7 @@ module Robo (
 
                 if(head == 1'b1 && under == 1'b0 && barrier == 1'b0)
                 begin
-                    turn = `ACTIVE;
+                    turn = ~`ACTIVE;
                     advance = ~`ACTIVE;
                     collect = ~`ACTIVE;
                     future_state = `TURN_90;
@@ -185,12 +182,12 @@ module Robo (
                     future_state = `TURN_90;
                 end
 
-                if(head == 1'b1 && under == 1'b0 && barrier == 1'b0)
+                if(head == 1'b0 && left == 1'b0)
                 begin
                     turn = `ACTIVE;
                     advance = ~`ACTIVE;
                     collect = ~`ACTIVE;
-                    future_state = `TURN_90;
+                    future_state = `STAND_BY;
                 end
 
                 if(under == 1'b0 && barrier == 1'b1)
