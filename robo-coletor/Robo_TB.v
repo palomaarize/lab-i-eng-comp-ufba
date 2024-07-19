@@ -35,7 +35,7 @@ begin
 	Linha_Robo = 3'b100;
 	Coluna_Robo = 3'b011;
 	Orientacao_Robo = N;
-	Qtd_Movimentos = 3'b011;
+	Qtd_Movimentos = 7'b1100100;
 	$display ("Linha = %d Coluna = %d Orientacao = %s Movimentos = %d", Linha_Robo, Coluna_Robo, String_Orientacao_Robo, Qtd_Movimentos);
 
 	//if (Situacoes_Anomalas(1)) $stop;
@@ -135,7 +135,7 @@ begin
 				else
 				begin
 					dado_celula = Mapa[Linha_Robo][Coluna_Robo + 1];
-					if(dado_celula == 2'b10)
+					if(dado_celula == 2'b01)
                         head = 1;
                     else 
                         head = 0;
