@@ -150,7 +150,7 @@ module Robo (
 
                 if(head == 1'b1 && under == 1'b0 && barrier == 1'b0)
                 begin
-                    turn = ~`ACTIVE;
+                    turn = `ACTIVE;
                     advance = ~`ACTIVE;
                     collect = ~`ACTIVE;
                     future_state = `TURN_90;
