@@ -139,7 +139,6 @@ module Robo (
                     collect = ~`ACTIVE;
                     future_state = `STAND_BY;
                 end
-
                 if(head == 1'b0 && left == 1'b1 && under == 1'b0 && barrier == 1'b0)
                 begin
                     turn = ~`ACTIVE;

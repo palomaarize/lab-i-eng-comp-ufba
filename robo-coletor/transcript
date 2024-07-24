@@ -567,3 +567,809 @@ run
 # Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 169
 run
 # Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 187
+# Break key hit
+# Compile of definitions.v was successful.
+# Compile of robo-coletor-testbanch.v was successful.
+# Compile of robo-coletor.v was successful.
+# Compile of Robo_TB.v was successful.
+# 4 compiles, 0 failed with no errors.
+run
+# Linha =  2 Coluna =  9 Orientacao =  Sul  
+# H = 0 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 169
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Linha =  3 Coluna =  9 Orientacao =  Sul  
+# H = 0 L = 1
+# Linha =  4 Coluna =  9 Orientacao =  Sul  
+run
+# H = 0 L = 1
+# Linha =  5 Coluna =  9 Orientacao =  Sul  
+run
+# H = 0 L = 1
+# Linha =  6 Coluna =  9 Orientacao =  Sul  
+# H = 0 L = 1
+run
+# Linha =  7 Coluna =  9 Orientacao =  Sul  
+# H = 0 L = 1
+run
+# Linha =  8 Coluna =  9 Orientacao =  Sul  
+# H = 1 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 111
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Linha =  8 Coluna =  9 Orientacao =  Sul  
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 169
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# H = 1 L = 1
+# Linha =  8 Coluna =  9 Orientacao =  Leste
+# H = 1 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 169
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# Linha =  8 Coluna =  9 Orientacao =  Norte
+# H = 0 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 169
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Linha =  7 Coluna =  9 Orientacao =  Norte
+# H = 0 L = 1
+# Linha =  6 Coluna =  9 Orientacao =  Norte
+run
+# H = 0 L = 1
+# Linha =  5 Coluna =  9 Orientacao =  Norte
+run
+# H = 0 L = 1
+# Linha =  4 Coluna =  9 Orientacao =  Norte
+# H = 0 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 119
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Linha =  3 Coluna =  9 Orientacao =  Norte
+# H = 0 L = 0
+# Linha =  2 Coluna =  9 Orientacao =  Norte
+add wave -position insertpoint  \
+sim:/Robo_TB_Tiago/Orientacao_Robo
+run
+# H = 1 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 169
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# Linha =  2 Coluna =  9 Orientacao =  Oeste
+# H = 0 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 169
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 187
+run
+# Linha =  2 Coluna =  9 Orientacao =  Sul  
+# H = 0 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 169
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Linha =  3 Coluna =  9 Orientacao =  Sul  
+# H = 0 L = 1
+# Linha =  4 Coluna =  9 Orientacao =  Sul  
+run
+# H = 0 L = 1
+# Linha =  5 Coluna =  9 Orientacao =  Sul  
+run
+# H = 0 L = 1
+# Linha =  6 Coluna =  9 Orientacao =  Sul  
+# H = 0 L = 1
+run
+# Linha =  7 Coluna =  9 Orientacao =  Sul  
+# H = 0 L = 1
+run
+# Linha =  8 Coluna =  9 Orientacao =  Sul  
+# H = 1 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 111
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Linha =  8 Coluna =  9 Orientacao =  Sul  
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 169
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# H = 1 L = 1
+# Linha =  8 Coluna =  9 Orientacao =  Leste
+# H = 1 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 169
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# Linha =  8 Coluna =  9 Orientacao =  Norte
+# H = 0 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 169
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Linha =  7 Coluna =  9 Orientacao =  Norte
+# H = 0 L = 1
+# Linha =  6 Coluna =  9 Orientacao =  Norte
+run
+# H = 0 L = 1
+# Linha =  5 Coluna =  9 Orientacao =  Norte
+run
+# H = 0 L = 1
+# Linha =  4 Coluna =  9 Orientacao =  Norte
+# H = 0 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 119
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Linha =  3 Coluna =  9 Orientacao =  Norte
+# H = 0 L = 0
+# Linha =  2 Coluna =  9 Orientacao =  Norte
+run
+# H = 1 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 169
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# Break in Task Atualiza_Posicao_Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/Robo_TB.v line 193
+run
+# Linha =  2 Coluna =  9 Orientacao =  Oeste
+# H = 0 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 169
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 187
+run
+# Linha =  2 Coluna =  9 Orientacao =  Sul  
+# H = 0 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 169
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Linha =  3 Coluna =  9 Orientacao =  Sul  
+# H = 0 L = 1
+# Linha =  4 Coluna =  9 Orientacao =  Sul  
+run
+# H = 0 L = 1
+# Linha =  5 Coluna =  9 Orientacao =  Sul  
+run
+# H = 0 L = 1
+# Linha =  6 Coluna =  9 Orientacao =  Sul  
+# H = 0 L = 1
+run
+# Linha =  7 Coluna =  9 Orientacao =  Sul  
+# H = 0 L = 1
+run
+# Linha =  8 Coluna =  9 Orientacao =  Sul  
+# H = 1 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 111
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Linha =  8 Coluna =  9 Orientacao =  Sul  
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 169
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# H = 1 L = 1
+# Linha =  8 Coluna =  9 Orientacao =  Leste
+# H = 1 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 169
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# Linha =  8 Coluna =  9 Orientacao =  Norte
+# H = 0 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 169
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Linha =  7 Coluna =  9 Orientacao =  Norte
+# H = 0 L = 1
+# Linha =  6 Coluna =  9 Orientacao =  Norte
+run
+# H = 0 L = 1
+# Linha =  5 Coluna =  9 Orientacao =  Norte
+run
+# H = 0 L = 1
+# Linha =  4 Coluna =  9 Orientacao =  Norte
+# H = 0 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 119
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Linha =  3 Coluna =  9 Orientacao =  Norte
+# H = 0 L = 0
+# Linha =  2 Coluna =  9 Orientacao =  Norte
+run
+# H = 1 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 169
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# Break in Task Atualiza_Posicao_Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/Robo_TB.v line 193
+run
+# Linha =  2 Coluna =  9 Orientacao =  Oeste
+# H = 0 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 169
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 187
+run
+# Linha =  2 Coluna =  9 Orientacao =  Sul  
+# H = 0 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 169
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Linha =  3 Coluna =  9 Orientacao =  Sul  
+# H = 0 L = 1
+# Linha =  4 Coluna =  9 Orientacao =  Sul  
+run
+# H = 0 L = 1
+# Linha =  5 Coluna =  9 Orientacao =  Sul  
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Robo_TB_Tiago
+# Loading work.Robo
+run
+# Linha =  4 Coluna =  3 Orientacao =        Movimentos = 100
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 202
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 25
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 25
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# H = 0 L = 0
+# Linha =  3 Coluna =  3 Orientacao =  Norte
+# H = 1 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# Break in Task Atualiza_Posicao_Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/Robo_TB.v line 193
+run
+# Linha =  3 Coluna =  3 Orientacao =  Oeste
+# H = 0 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 187
+run
+# Linha =  3 Coluna =  3 Orientacao =  Sul  
+# H = 0 L = 0
+run
+# Linha =  3 Coluna =  3 Orientacao =  Leste
+# H = 0 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Linha =  3 Coluna =  4 Orientacao =  Leste
+# H = 0 L = 1
+# Linha =  3 Coluna =  5 Orientacao =  Leste
+run
+# H = 0 L = 1
+# Linha =  3 Coluna =  6 Orientacao =  Leste
+run
+# H = 0 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 119
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Linha =  3 Coluna =  7 Orientacao =  Leste
+# H = 0 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+# Compile of definitions.v was successful.
+# Compile of robo-coletor-testbanch.v was successful.
+# Compile of robo-coletor.v was successful.
+# Compile of Robo_TB.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Robo_TB_Tiago
+# Loading work.Robo
+run
+# Linha =  4 Coluna =  3 Orientacao =        Movimentos = 100
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 202
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 25
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 25
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# H = 0 L = 0
+# Linha =  3 Coluna =  3 Orientacao =  Norte
+# H = 1 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# Break in Task Atualiza_Posicao_Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/Robo_TB.v line 193
+run
+# Linha =  3 Coluna =  3 Orientacao =  Oeste
+# H = 0 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 187
+run
+# Linha =  3 Coluna =  3 Orientacao =  Sul  
+# H = 0 L = 0
+run
+# Linha =  3 Coluna =  3 Orientacao =  Leste
+# H = 0 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Linha =  3 Coluna =  4 Orientacao =  Leste
+# H = 0 L = 1
+# Linha =  3 Coluna =  5 Orientacao =  Leste
+run
+# H = 0 L = 1
+# Linha =  3 Coluna =  6 Orientacao =  Leste
+run
+# H = 0 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 119
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Linha =  3 Coluna =  7 Orientacao =  Leste
+# H = 0 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+restart
+run
+# Linha =  4 Coluna =  3 Orientacao =        Movimentos = 100
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 202
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 25
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 25
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# H = 0 L = 0
+# Linha =  3 Coluna =  3 Orientacao =  Norte
+# H = 1 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# Break in Task Atualiza_Posicao_Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/Robo_TB.v line 193
+run
+# Linha =  3 Coluna =  3 Orientacao =  Oeste
+# H = 0 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 187
+run
+# Linha =  3 Coluna =  3 Orientacao =  Sul  
+# H = 0 L = 0
+run
+# Linha =  3 Coluna =  3 Orientacao =  Leste
+# H = 0 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Linha =  3 Coluna =  4 Orientacao =  Leste
+# H = 0 L = 1
+# Linha =  3 Coluna =  5 Orientacao =  Leste
+run
+# H = 0 L = 1
+# Linha =  3 Coluna =  6 Orientacao =  Leste
+run
+# H = 0 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 119
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Linha =  3 Coluna =  7 Orientacao =  Leste
+# H = 0 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Linha =  3 Coluna =  8 Orientacao =  Leste
+# H = 0 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 119
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Linha =  3 Coluna =  9 Orientacao =  Leste
+# H = 1 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# Linha =  3 Coluna =  9 Orientacao =  Norte
+# H = 0 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 187
+run
+# Break in Task Atualiza_Posicao_Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/Robo_TB.v line 193
+run
+# Linha =  3 Coluna =  9 Orientacao =  Oeste
+# H = 0 L = 0
+# Linha =  3 Coluna =  9 Orientacao =  Sul  
+run
+# H = 0 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Linha =  4 Coluna =  9 Orientacao =  Sul  
+# H = 0 L = 1
+# Linha =  5 Coluna =  9 Orientacao =  Sul  
+run
+# H = 0 L = 1
+# Linha =  6 Coluna =  9 Orientacao =  Sul  
+run
+# H = 0 L = 1
+# Linha =  7 Coluna =  9 Orientacao =  Sul  
+# H = 0 L = 1
+run
+# Linha =  8 Coluna =  9 Orientacao =  Sul  
+# H = 1 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 111
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Linha =  8 Coluna =  9 Orientacao =  Leste
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# H = 1 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# Linha =  8 Coluna =  9 Orientacao =  Norte
+# H = 0 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Linha =  7 Coluna =  9 Orientacao =  Norte
+# H = 0 L = 1
+# Linha =  6 Coluna =  9 Orientacao =  Norte
+run
+# H = 0 L = 1
+# Linha =  5 Coluna =  9 Orientacao =  Norte
+run
+# H = 0 L = 1
+# Linha =  4 Coluna =  9 Orientacao =  Norte
+# H = 0 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 119
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Linha =  3 Coluna =  9 Orientacao =  Norte
+# H = 0 L = 0
+# Linha =  2 Coluna =  9 Orientacao =  Norte
+run
+# H = 1 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# Break in Task Atualiza_Posicao_Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/Robo_TB.v line 193
+run
+# Linha =  2 Coluna =  9 Orientacao =  Oeste
+# H = 0 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 187
+# Compile of definitions.v was successful.
+# Compile of robo-coletor-testbanch.v was successful.
+# Compile of robo-coletor.v was successful.
+# Compile of Robo_TB.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Robo_TB_Tiago
+# Loading work.Robo
+run
+# Linha =  4 Coluna =  3 Orientacao =        Movimentos = 100
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 202
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 25
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 25
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# H = 0 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 187
+run
+# Break in Task Atualiza_Posicao_Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/Robo_TB.v line 193
+run
+# Linha =  4 Coluna =  3 Orientacao =  Oeste
+# H = 0 L = 0
+# Linha =  4 Coluna =  3 Orientacao =  Sul  
+run
+# H = 1 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Linha =  4 Coluna =  3 Orientacao =  Leste
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# H = 1 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Linha =  4 Coluna =  3 Orientacao =  Norte
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# H = 0 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 187
+run
+# Break in Task Atualiza_Posicao_Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/Robo_TB.v line 193
+run
+# Linha =  4 Coluna =  3 Orientacao =  Oeste
+# H = 0 L = 0
+# Linha =  4 Coluna =  3 Orientacao =  Sul  
+run
+# H = 1 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 150
+run
+# Linha =  4 Coluna =  3 Orientacao =  Leste
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# H = 1 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 150
+run
+# Linha =  4 Coluna =  3 Orientacao =  Norte
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# H = 0 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 187
+run
+# Break in Task Atualiza_Posicao_Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/Robo_TB.v line 193
+run
+# Linha =  4 Coluna =  3 Orientacao =  Oeste
+# H = 0 L = 0
+# Linha =  4 Coluna =  3 Orientacao =  Sul  
+run
+# H = 1 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+# Compile of definitions.v was successful.
+# Compile of robo-coletor-testbanch.v was successful.
+# Compile of robo-coletor.v was successful.
+# Compile of Robo_TB.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Robo_TB_Tiago
+# Loading work.Robo
+run
+# Linha =  4 Coluna =  3 Orientacao =        Movimentos = 100
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 202
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 25
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 25
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 150
+run
+# H = 0 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 187
+run
+# Break in Task Atualiza_Posicao_Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/Robo_TB.v line 193
+run
+# Linha =  4 Coluna =  3 Orientacao =  Oeste
+# H = 0 L = 0
+# Linha =  4 Coluna =  3 Orientacao =  Sul  
+run
+# H = 1 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# Linha =  4 Coluna =  3 Orientacao =  Leste
+# H = 1 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# Linha =  4 Coluna =  3 Orientacao =  Norte
+# H = 0 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 187
+run
+# Break in Task Atualiza_Posicao_Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/Robo_TB.v line 193
+run
+# Linha =  4 Coluna =  3 Orientacao =  Oeste
+# H = 0 L = 0
+# Linha =  4 Coluna =  3 Orientacao =  Sul  
+run
+# H = 1 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# Linha =  4 Coluna =  3 Orientacao =  Leste
+# H = 1 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# Linha =  4 Coluna =  3 Orientacao =  Norte
+# H = 0 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 187
+run
+# Break in Task Atualiza_Posicao_Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/Robo_TB.v line 193
+run
+# Linha =  4 Coluna =  3 Orientacao =  Oeste
+# H = 0 L = 0
+# Linha =  4 Coluna =  3 Orientacao =  Sul  
+run
+# H = 1 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# Linha =  4 Coluna =  3 Orientacao =  Leste
+# H = 1 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# Linha =  4 Coluna =  3 Orientacao =  Norte
+# H = 0 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 187
+run
+# Break in Task Atualiza_Posicao_Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/Robo_TB.v line 193
+# Compile of definitions.v was successful.
+# Compile of robo-coletor-testbanch.v was successful.
+# Compile of robo-coletor.v was successful.
+# Compile of Robo_TB.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Robo_TB_Tiago
+# Loading work.Robo
+run
+# Linha =  4 Coluna =  3 Orientacao =        Movimentos = 100
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 202
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 25
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 25
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 150
+run
+# H = 0 L = 0
+# Linha =  3 Coluna =  3 Orientacao =  Norte
+# H = 1 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 150
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# Break in Task Atualiza_Posicao_Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/Robo_TB.v line 193
+run
+# Linha =  3 Coluna =  3 Orientacao =  Oeste
+# H = 0 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 187
+run
+# Linha =  3 Coluna =  3 Orientacao =  Sul  
+# H = 0 L = 0
+run
+# Linha =  3 Coluna =  3 Orientacao =  Leste
+# H = 0 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Linha =  3 Coluna =  4 Orientacao =  Leste
+# H = 0 L = 1
+# Linha =  3 Coluna =  5 Orientacao =  Leste
+run
+# H = 0 L = 1
+# Linha =  3 Coluna =  6 Orientacao =  Leste
+run
+# H = 0 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 119
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 150
+run
+# Linha =  3 Coluna =  7 Orientacao =  Leste
+# H = 0 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 150
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Linha =  3 Coluna =  8 Orientacao =  Leste
+# H = 0 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 119
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 150
+run
+# Linha =  3 Coluna =  9 Orientacao =  Leste
+# H = 1 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 150
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# Linha =  3 Coluna =  9 Orientacao =  Norte
+# H = 0 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 187
+run
+# Break in Task Atualiza_Posicao_Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/Robo_TB.v line 193
+run
+# Linha =  3 Coluna =  9 Orientacao =  Oeste
+# H = 0 L = 0
+# Linha =  3 Coluna =  9 Orientacao =  Sul  
+run
+# H = 0 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Linha =  4 Coluna =  9 Orientacao =  Sul  
+# H = 0 L = 1
+# Linha =  5 Coluna =  9 Orientacao =  Sul  
+run
+# H = 0 L = 1
+# Linha =  6 Coluna =  9 Orientacao =  Sul  
+run
+# H = 0 L = 1
+# Linha =  7 Coluna =  9 Orientacao =  Sul  
+# H = 0 L = 1
+run
+# Linha =  8 Coluna =  9 Orientacao =  Sul  
+# H = 1 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 111
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 127
+run
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 150
+run
+# Linha =  8 Coluna =  9 Orientacao =  Leste
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# H = 1 L = 0
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 179
+run
+# Linha =  8 Coluna =  9 Orientacao =  Norte
+# H = 0 L = 1
+# Break in Module Robo at /home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v line 85
+run
+# Linha =  7 Coluna =  9 Orientacao =  Norte
+# H = 0 L = 1
+# Linha =  6 Coluna =  9 Orientacao =  Norte
