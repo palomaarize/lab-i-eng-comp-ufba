@@ -1373,3 +1373,19 @@ run
 # Linha =  7 Coluna =  9 Orientacao =  Norte
 # H = 0 L = 1
 # Linha =  6 Coluna =  9 Orientacao =  Norte
+quit -sim
+# End time: 19:10:42 on Jul 25,2024, Elapsed time: 48:51:35
+# Errors: 0, Warnings: 1
+# Compile of definitions.v was successful.
+# Compile of robo-coletor-testbanch.v was successful.
+# Compile of robo-coletor.v was successful.
+# Compile of Robo_TB.v was successful.
+# Compile of vga-module.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of definitions.v was successful.
+# Compile of robo-coletor-testbanch.v was successful.
+# Compile of robo-coletor.v was successful.
+# Compile of Robo_TB.v was successful.
+# Compile of vga-module.v was successful.
+# Compile of top-module.v was successful.
+# 6 compiles, 0 failed with no errors.
