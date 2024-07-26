@@ -11,24 +11,24 @@ z2
 cModel Technology
 d/home/palomasilvaarizesantos/Documentos/ufba/ENGG56_CPU/Processador/ModelSim
 vRobo
-Z0 !s110 1721945546
+Z0 !s110 1722032974
 !i10b 1
-!s100 ZW_iGL@7WU400T<4YT4=o0
+!s100 =?IhMW_eiU_;fM98h0>753
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I=TQae=;dP1C0WjN3]5<zQ1
+IM6C7N3GL_neZG]KlA`QXg0
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 Z3 d/home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor
-w1721819198
+w1722004625
 8/home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v
 F/home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v
 Z4 Fdefinitions.v
-!i122 263
+!i122 303
 L0 1 217
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1721945546.000000
+Z6 !s108 1722032974.000000
 !s107 definitions.v|/home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor.v|
 !i113 1
@@ -46,7 +46,7 @@ R3
 w1717250743
 8/home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor-testbanch.v
 F/home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/robo-coletor-testbanch.v
-!i122 262
+!i122 302
 L0 3 345
 R5
 r1
@@ -62,16 +62,16 @@ n@robo_@t@b
 vRobo_TB_Tiago
 R0
 !i10b 1
-!s100 aN:AGI=@KD@THX[J9?MGD0
+!s100 U_9UC<_n<8Va7DhjnHb8k3
 R1
-ILW>a]Ek^D3I9YGlI[2AfB0
+IDPoCj8N1kf=F7mN8`3YXb0
 R2
 R3
-w1720826029
+w1722032966
 8/home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/Robo_TB.v
 F/home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/Robo_TB.v
-!i122 264
-L0 3 236
+!i122 304
+L0 3 300
 R5
 r1
 !s85 0
@@ -94,7 +94,7 @@ R3
 w1721945523
 8/home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/top-module.v
 F/home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/top-module.v
-!i122 266
+!i122 306
 L0 1 46
 R5
 r1
@@ -118,7 +118,7 @@ w1721945419
 8/home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/vga-module.v
 F/home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/vga-module.v
 R4
-!i122 265
+!i122 305
 L0 1 101
 R5
 r1

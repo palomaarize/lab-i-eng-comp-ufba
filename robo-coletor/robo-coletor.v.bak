@@ -85,7 +85,7 @@ module Robo (
                 if(under == 1'b1)
                 begin
                     turn = ~`ACTIVE;
-                    advance = ~`ACTIVE;
+                    advance = `ACTIVE;
                     collect = ~`ACTIVE;
                     future_state = `STAND_BY;
                 end
@@ -139,7 +139,6 @@ module Robo (
                     collect = ~`ACTIVE;
                     future_state = `STAND_BY;
                 end
-
                 if(head == 1'b0 && left == 1'b1 && under == 1'b0 && barrier == 1'b0)
                 begin
                     turn = ~`ACTIVE;
@@ -150,7 +149,7 @@ module Robo (
 
                 if(head == 1'b1 && under == 1'b0 && barrier == 1'b0)
                 begin
-                    turn = ~`ACTIVE;
+                    turn = `ACTIVE;
                     advance = ~`ACTIVE;
                     collect = ~`ACTIVE;
                     future_state = `TURN_90;
@@ -187,7 +186,7 @@ module Robo (
                     turn = `ACTIVE;
                     advance = ~`ACTIVE;
                     collect = ~`ACTIVE;
-                    future_state = default;
+                    future_state = `TURN_90;
                 end
 
                 if(under == 1'b0 && barrier == 1'b1)

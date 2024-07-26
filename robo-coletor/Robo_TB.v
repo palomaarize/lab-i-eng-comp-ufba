@@ -27,7 +27,7 @@ begin
 	reset = 1;
 	head = 0;
 	left = 0;
-	under = 1;
+	under = 0;
 	barrier = 0;
 
 	$readmemb("/home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/mapa.txt", Mapa);
@@ -40,7 +40,7 @@ begin
 
 	//if (Situacoes_Anomalas(1)) $stop;
 
-	#100 @ (negedge clock) begin reset = 0; under = 0; end // sincroniza com borda de descida
+	#100 @ (negedge clock) begin reset = 0; end // sincroniza com borda de descida
 
 	for (i = 0; i < Qtd_Movimentos; i = i + 1)
 	begin
@@ -102,6 +102,19 @@ begin
                     else
                         left = 0;
 				end
+
+				// definicao de under
+				if (Linha_Robo == 1)
+					under = 0;
+				else
+				begin
+					//Linha_Mapa = Mapa[Linha_Robo];
+                   dado_celula = Mapa[Linha_Robo][Coluna_Robo];
+					if(dado_celula == 2'b11)
+                        under = 1;
+                    else 
+                        under = 0;
+				end
 			end
 		S:	begin
 				// definicao de head
@@ -127,6 +140,19 @@ begin
                     else 
                         left = 0;
 				end
+
+				// definicao de under
+				if (Linha_Robo == 1)
+					under = 0;
+				else
+				begin
+					//Linha_Mapa = Mapa[Linha_Robo];
+                   dado_celula = Mapa[Linha_Robo][Coluna_Robo];
+					if(dado_celula == 2'b11)
+                        under = 1;
+                    else 
+                        under = 0;
+				end
 			end
 		L:	begin
 				// definicao de head
@@ -151,6 +177,31 @@ begin
                     else 
                         left = 0;
 				end
+
+				// definicao de under
+				if (Linha_Robo == 1)
+					under = 0;
+				else
+				begin
+
+                   dado_celula = Mapa[Linha_Robo][Coluna_Robo];
+					if(dado_celula == 2'b11)
+                        under = 1;
+                    else 
+                        under = 0;
+				end
+
+				// definicao de barrier
+				//if (Linha_Robo == 1)
+					barrier = 0;
+				//else
+				//begin
+                 //  	dado_celula = Mapa[Linha_Robo][Coluna_Robo + 1];
+				//	if(dado_celula == 2'b10)
+                //        barrier = 1;
+               //     else 
+               //         barrier = 0;
+				//end
 			end
 		O:	begin
 				// definicao de head
@@ -174,6 +225,19 @@ begin
                         head = 1;
                     else 
                         head = 0;
+				end
+
+				// definicao de under
+				if (Linha_Robo == 1)
+					under = 0;
+				else
+				begin
+					//Linha_Mapa = Mapa[Linha_Robo];
+                   dado_celula = Mapa[Linha_Robo][Coluna_Robo];
+					if(dado_celula == 2'b11)
+                        under = 1;
+                    else 
+                        under = 0;
 				end
 			end
 	endcase

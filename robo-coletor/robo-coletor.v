@@ -135,7 +135,7 @@ module Robo (
                 if(under == 1'b1)
                 begin
                     turn = ~`ACTIVE;
-                    advance = ~`ACTIVE;
+                    advance = `ACTIVE;
                     collect = ~`ACTIVE;
                     future_state = `STAND_BY;
                 end
