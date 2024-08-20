@@ -5,7 +5,7 @@ module Robo_TB;
 parameter N = 2'b00, S = 2'b01, L = 2'b10, O = 2'b11;
 
 reg clock, reset, head, left, under, barrier;
-wire advance, turn;
+wire forward, turn;
 
 reg [1:2] Mapa [1:9][1:10]; // linha 0 reservada para posicao do robo e quantidade de movimentos
 reg [1:20] Linha_Mapa;
@@ -19,7 +19,7 @@ integer i;
 integer j;
 integer k;
 
-Robo DUV (.clock(clock), .reset(reset), .head(head), .left(left), .barrier(barrier), .under(under), .advance(advance), .turn(turn), .collect(collect));
+Robo DUV (.clock(clock), .reset(reset), .head(head), .left(left), .barrier(barrier), .under(under), .forward(forward), .turn(turn), .remove(remove));
 
 always
 	#50 clock = !clock;
@@ -294,7 +294,7 @@ begin
 	case (Orientacao_Robo)
 		N:	begin
 				// definicao de orientacao / linha / coluna
-				if (advance)
+				if (forward)
 				begin
 					Linha_Robo = Linha_Robo - 1;
 				end
@@ -306,7 +306,7 @@ begin
 			end
 		S:	begin
 				// definicao de orientacao / linha / coluna
-				if (advance)
+				if (forward)
 				begin
 					Linha_Robo = Linha_Robo + 1;
 				end
@@ -318,7 +318,7 @@ begin
 			end
 		L:	begin
 				// definicao de orientacao / linha / coluna
-				if (advance)
+				if (forward)
 				begin
 					Coluna_Robo = Coluna_Robo + 1;
 				end
@@ -330,7 +330,7 @@ begin
 			end
 		O:	begin
 				// definicao de orientacao / linha / coluna
-				if (advance)
+				if (forward)
 				begin
 					Coluna_Robo = Coluna_Robo - 1;
 				end

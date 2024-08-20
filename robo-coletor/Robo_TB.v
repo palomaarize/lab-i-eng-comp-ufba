@@ -31,14 +31,12 @@ begin
 	barrier = 0;
 
 	$readmemb("/home/palomasilvaarizesantos/Documentos/ufba/lab-i/robo-coletor/mapa.txt", Mapa);
-	Linha_Mapa = {Mapa[1][1], Mapa[1][2], Mapa[1][3], Mapa[1][4], Mapa[1][5], Mapa[1][6], Mapa[1][7], Mapa[1][8], Mapa[1][9], Mapa[1][10]};
 	Linha_Robo = 3'b100;
 	Coluna_Robo = 3'b011;
 	Orientacao_Robo = N;
 	Qtd_Movimentos = 7'b1100100;
 	$display ("Linha = %d Coluna = %d Orientacao = %s Movimentos = %d", Linha_Robo, Coluna_Robo, String_Orientacao_Robo, Qtd_Movimentos);
 
-	//if (Situacoes_Anomalas(1)) $stop;
 
 	#100 @ (negedge clock) begin reset = 0; end // sincroniza com borda de descida
 
@@ -56,7 +54,6 @@ begin
 			O: String_Orientacao_Robo = "Oeste";
 		endcase
 		$display ("Linha = %d Coluna = %d Orientacao = %s", Linha_Robo, Coluna_Robo, String_Orientacao_Robo);
-		//if (Situacoes_Anomalas(1)) $stop;
 	end
 
 end
@@ -193,7 +190,7 @@ begin
 
 				// definicao de barrier
 				//if (Linha_Robo == 1)
-					barrier = 0;
+				//	barrier = 0;
 				//else
 				//begin
                  //  	dado_celula = Mapa[Linha_Robo][Coluna_Robo + 1];
@@ -210,7 +207,7 @@ begin
 				else
 				begin
 					dado_celula = Mapa[Linha_Robo][Coluna_Robo - 1];
-					if(dado_celula == 2'b10)
+					if(dado_celula == 2'b01)
                         head = 1;
                     else 
                         head = 0;
@@ -221,10 +218,10 @@ begin
 				else
 				begin
 					dado_celula = Mapa[Linha_Robo + 1][Coluna_Robo];
-					if(dado_celula == 2'b10)
-                        head = 1;
+					if(dado_celula == 2'b01)
+                        left = 1;
                     else 
-                        head = 0;
+                        left = 0;
 				end
 
 				// definicao de under

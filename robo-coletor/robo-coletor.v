@@ -55,6 +55,7 @@ module Robo (
                 end
             end
 
+
             `COLLECT_TRASH: begin
                 if(under == 1'b0 && barrier == 1'b1)
                 begin
@@ -114,6 +115,16 @@ module Robo (
                     future_state = `SEARCH_THE_WALL;
                 end
 
+                if(head == 1'b0 && left == 1'b0 && under == 1'b0 && barrier == 1'b0)
+                begin
+                    turn = `ACTIVE;
+                    advance = ~`ACTIVE;
+                    collect = ~`ACTIVE;
+                    future_state = `FOLLOW_THE_WALL_HOLD;
+                end
+            end
+
+            `FOLLOW_THE_WALL_HOLD: begin
                 if(head == 1'b0 && left == 1'b0 && under == 1'b0 && barrier == 1'b0)
                 begin
                     turn = `ACTIVE;
